@@ -1,0 +1,29 @@
+@import "../../static/scss/base.scss";
+
+.partnering-wrapper {
+  margin: 2.4rem 1.5rem;
+
+  .card-top {
+    > img {
+      width: 5.6rem;
+      object-fit: contain;
+    }
+  }
+  .card-bottom {
+    width: 37rem;
+    margin-top: 3.4rem;
+
+    > h3 {
+      margin-top: 0;
+      margin-bottom: 1.6rem;
+      font-weight: bold;
+      font-size: 2.8rem;
+      line-height: 130%;
+    }
+    > p {
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 140%;
+    }
+  }
+}
